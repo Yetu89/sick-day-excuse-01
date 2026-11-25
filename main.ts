@@ -1,10 +1,10 @@
 // The Funniest Sick-Day Excuse — make.fun bounty u-zeroxfive-the-funniest-sick-day-excuse-37423a36
-// Writes one funny sick-day excuse (129 characters, max 200, no trailing newline)
+// Writes one funny sick-day excuse (136 characters, max 200, no trailing newline)
 // to /output/entry.txt (or $OUTPUT_DIR/entry.txt for local testing).
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT =
-  "Can't come in — my cat stepped on my keyboard and emailed my resignation to the whole office, so I'm spending today un-resigning.";
+  "Sorry, my calendar auto-declined today without asking and honestly it's the first sensible decision it's ever made, so I'm honouring it.";
 
 // Length in code points, so an astral character counts once.
 const LENGTH = [...TEXT].length;
